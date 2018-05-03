@@ -17,6 +17,7 @@ const IndexPage = ({
 
   return (
     <main>
+        <h3>Articles:</h3>
       <br />
       <ul>{Posts}</ul>
     </main>

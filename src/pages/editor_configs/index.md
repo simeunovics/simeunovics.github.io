@@ -1,13 +1,12 @@
 ---
 path: '/editors/configs'
-title: 'Editor configurations'
+title: 'Editor Preferences'
 date: 2018-05-03
 ---
 
-* [VS Code](#vs_code)
-* [Sublime](#sublime)
+* [VS Code](#vs_code) |  [Sublime](#sublime)
 
-#### <a name="vs_code"></a> VS Code [preferences]
+### <a name="vs_code"></a> VS Code [preferences]
 
 ```json
 {
