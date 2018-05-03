@@ -4,7 +4,10 @@ title: 'Editor configurations'
 date: 2018-05-03
 ---
 
-### <a name="vs_code"></a> [VS Code](#vs_code)
+* [VS Code](#vs_code)
+* [Sublime](#sublime)
+
+#### <a name="vs_code"></a> VS Code [preferences]
 
 ```json
 {
@@ -91,29 +94,112 @@ date: 2018-05-03
 }
 ```
 
-### <a name="sublime"></a> [Sublime](#sublime)
+##### VS Code [keybindings]
 
-```javascript-json
+```json
+[
+  {
+    "key": "alt+enter",
+    "command": "editor.action.showContextMenu",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+f10",
+    "command": "-editor.action.showContextMenu",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+/",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "alt+cmd+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "cmd+m",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "shift+cmd+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  }
+]
+```
+
+<br/>
+
+#### <a name="sublime"></a> Sublime
+
+```json
 {
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"draw_indent_guides": false,
-	"font_face": "Fira Mono for Powerline",
-	"font_size": 17,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-	],
-	"line_numbers": false,
-	"line_padding_bottom": 12,
-	"line_padding_top": 12,
-	"material_theme_small_tab": true,
-	"open_files_in_new_window": false,
-	"scroll_past_end": true,
-	"theme": "Material-Theme.sublime-theme",
-	"trim_trailing_white_space_on_save": false,
-	"use_simple_full_screen": true,
-	"vintage_start_in_command_mode": true,
-	"word_wrap": false
+  "close_windows_when_empty": true,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "draw_indent_guides": false,
+  "font_face": "Fira Mono for Powerline",
+  "font_size": 17,
+  "hot_exit": false,
+  "ignored_packages": [],
+  "line_numbers": false,
+  "line_padding_bottom": 12,
+  "line_padding_top": 12,
+  "material_theme_small_tab": true,
+  "open_files_in_new_window": false,
+  "scroll_past_end": true,
+  "theme": "Material-Theme.sublime-theme",
+  "trim_trailing_white_space_on_save": false,
+  "use_simple_full_screen": true,
+  "vintage_start_in_command_mode": true,
+  "word_wrap": false
 }
 ```
