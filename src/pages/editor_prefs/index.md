@@ -1,5 +1,5 @@
 ---
-path: '/editors/configs'
+path: '/editors-prefs'
 title: 'Editor Preferences'
 date: 2018-05-03
 ---
