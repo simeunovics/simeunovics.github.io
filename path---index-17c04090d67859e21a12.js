@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{331:function(e,o){e.exports={data:{allMarkdownRemark:{edges:[{node:{id:"/Users/simo/projects/simeunovics.github.io/src/pages/editor_configs/index.md absPath of file >>> MarkdownRemark",excerpt:"VS Code  |   Sublime  VS Code  preferences VS Code  keybindings  Sublime",frontmatter:{date:"May 03, 2018",path:"/editors/configs",title:"Editor Preferences"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-17c04090d67859e21a12.js.map
