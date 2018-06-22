@@ -17,8 +17,8 @@
       "component---src-layouts-index-js-3a0d475aa2e6a8029114.js.map"
     ],
     "path---index": [
-      "path---index-7f3cd8cba6ae2bd4db88.js",
-      "path---index-7f3cd8cba6ae2bd4db88.js.map"
+      "path---index-badcd59ea8a73c2e1d06.js",
+      "path---index-badcd59ea8a73c2e1d06.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -36,14 +36,18 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---oh-my-zsh-custom-theme": [
+      "path---oh-my-zsh-custom-theme-b2aab8b950ca84617488.js",
+      "path---oh-my-zsh-custom-theme-b2aab8b950ca84617488.js.map"
+    ],
     "path---terminal-shortcuts": [
       "path---terminal-shortcuts-10f6252eeca730497b5e.js",
       "path---terminal-shortcuts-10f6252eeca730497b5e.js.map"
     ],
     "app": [
-      "app-1f3b3f2cfc9aee24e51e.js",
+      "app-fec4c4fe4640f0952940.js",
       "build-js-styles.css",
-      "app-1f3b3f2cfc9aee24e51e.js.map",
+      "app-fec4c4fe4640f0952940.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
