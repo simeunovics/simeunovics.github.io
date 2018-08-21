@@ -17,16 +17,16 @@
       "component---src-layouts-index-js-3a0d475aa2e6a8029114.js.map"
     ],
     "path---index": [
-      "path---index-badcd59ea8a73c2e1d06.js",
-      "path---index-badcd59ea8a73c2e1d06.js.map"
+      "path---index-d0316dff2e653c9b1b2b.js",
+      "path---index-d0316dff2e653c9b1b2b.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "path---editors-prefs": [
-      "path---editors-prefs-044c8779dcc5f8e50564.js",
-      "path---editors-prefs-044c8779dcc5f8e50564.js.map"
+      "path---editors-prefs-31d96b370bbfaf20f305.js",
+      "path---editors-prefs-31d96b370bbfaf20f305.js.map"
     ],
     "commons": [
       "commons-eca33aa84bc3f6631b67.js",
@@ -45,10 +45,14 @@
       "path---terminal-shortcuts-e6dd88f6125d6091a060.js.map"
     ],
     "app": [
-      "app-c901da90b13d68ec3500.js",
+      "app-c896d5cf6dd8a7d9dd17.js",
       "build-js-styles.css",
-      "app-c901da90b13d68ec3500.js.map",
+      "app-c896d5cf6dd8a7d9dd17.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---hyperjs-config": [
+      "path---hyperjs-config-375c4190b474177b2f99.js",
+      "path---hyperjs-config-375c4190b474177b2f99.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
